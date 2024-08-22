@@ -1,0 +1,8 @@
+<div class="card-footer-wrapper">
+	<h3>{{ isPriceless ? "Play It Now!" : "Buy Now!" }}</h3>
+	<ul>
+		<li class="gameType">{{ gameType }} Game</li>
+		<li *ngFor="let platform of platforms">| {{ platform }}</li>
+	</ul>
+	<p class="card-footer-price">{{ price == 0 ? "Free" : "$" + price }}</p>
+</div>

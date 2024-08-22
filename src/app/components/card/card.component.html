@@ -1,0 +1,19 @@
+<div class="card-wrapper">
+	<a
+		class="card"
+		*ngFor="let card of this.cards"
+		[ngStyle]="{
+			'background-image': 'url(' + card.banner + ')'
+		}"
+	>
+		<app-is-exclusive
+			[platformsLength]="card.platforms.length"
+		></app-is-exclusive>
+
+		<app-card-footer
+			[price]="card.price"
+			[platforms]="card.platforms"
+			[gameType]="card.gameType"
+		></app-card-footer>
+	</a>
+</div>

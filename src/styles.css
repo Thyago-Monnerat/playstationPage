@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+
+	font-family: "zrnic", sans-serif;
+  letter-spacing: 1px;
+}
+
+body {
+	background: rgb(2, 0, 36);
+	background: linear-gradient(
+		90deg,
+		rgba(2, 0, 36, 1) 0%,
+		rgba(8, 8, 110, 1) 40%,
+		rgba(15, 82, 147, 1) 100%
+	);
+}

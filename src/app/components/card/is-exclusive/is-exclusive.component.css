@@ -1,0 +1,8 @@
+.is-exclusive {
+	background-color: rgba(0, 0, 0, 0.9);
+
+	padding-inline: 15px;
+	padding-block: 5px;
+
+	color: white;
+}

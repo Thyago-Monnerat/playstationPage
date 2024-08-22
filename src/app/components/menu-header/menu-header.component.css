@@ -1,0 +1,15 @@
+.menu-wrapper {
+	width: 100%;
+	max-width: 1920px;
+
+	background-color: white;
+
+	margin: auto;
+	padding: 10px;
+
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	align-items: center;
+
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
